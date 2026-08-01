@@ -1,0 +1,8 @@
+/* popup.css */
+/* Purpose: styling for popup.html.
+   TODO:
+   - Fixed popup width (~360px) per Chrome extension popup conventions
+   - Styles for disabled button state (gated until master resume uploaded)
+   - Error banner (red) / success banner (green) styles
+   - Simple spinner animation for loading state
+*/
