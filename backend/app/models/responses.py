@@ -30,7 +30,7 @@ class ResumeSection(BaseModel):
 
 class TailorResponse(BaseModel):
     contact_info: ContactBlock
-    education: list[EducationEntry]
+    education: list[EducationEntry] 
     sections: list[ResumeSection]
     cv_type: CVType
     language: Language
