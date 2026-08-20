@@ -1,9 +1,0 @@
-# fly.toml
-# Purpose: Fly.io deploy config.
-
-# TODO:
-#   - app = "tailrcv-backend"
-#   - [build] dockerfile = "Dockerfile"
-#   - [env] non-secret vars (secrets set via `flyctl secrets set`)
-#   - [[services]] internal_port = 8000, http checks against /healthz
-#   - [http_service] force_https = true
