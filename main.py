@@ -15,7 +15,9 @@ app.add_middleware(
     allow_methods=["POST"],
     allow_headers=["*"],
 )
-
+@app.get("/ping")
+async def ping():
+    return {"status": "awake"}
 class GenerateRequest(BaseModel):
     master_cv: str  # Base64 Data URL string
     job_description: str
